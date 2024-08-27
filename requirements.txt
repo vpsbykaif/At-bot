@@ -12,3 +12,4 @@ fake-useragent
 beautifulsoup4
 tiktoken==0.6.0
 duckduckgo-search==5.3.1
+Flask==3.0.3

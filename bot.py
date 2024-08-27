@@ -35,6 +35,9 @@ from utils.scripts import GetMesageInfo, safe_get
 from telegram.constants import ChatAction
 from telegram import BotCommand, InlineKeyboardMarkup, InlineQueryResultArticle, InputTextMessageContent, Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from telegram.ext import CommandHandler, MessageHandler, ApplicationBuilder, filters, CallbackQueryHandler, Application, AIORateLimiter, InlineQueryHandler
+from keep_alive import keep_alive
+
+keep_alive()
 
 import asyncio
 lock = asyncio.Lock()
